@@ -1,9 +1,27 @@
 .news-feed-container {
     overflow: scroll;
     background-color: #923530;
+    background: linear-gradient(to bottom,#923530,#6B2A28);
+    color: white;
+    padding: 10px;
+    /* Probably a better way to do this */
+    max-height: 500px;
 }
 
-#main-image {
-    max-width: 100%;
-    max-height: 100%;
+#news-feed-head {
+    font-size: 120%;
 }
+
+#news-feed-line {
+    border-top: .5px solid white;
+}
+
+.main-image {
+    /* max-width: 100%;
+    max-height: 100%; */
+}
+
+.foot-nav-link {
+    color: black;
+}
+
