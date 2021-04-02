@@ -8,6 +8,35 @@
     max-height: 500px;
 }
 
+.what-we-do-container {
+    /* overflow: scroll; */
+    background-color: #923530;
+    background: linear-gradient(to bottom,#923530,#6B2A28);
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+    /* Probably a better way to do this */
+}
+
+.what-we-do-container>ul {
+    list-style-type: none;
+    padding:0;
+}
+
+.what-we-do-container>ul>ul {
+    list-style-type: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.what-do-images {
+    margin-right: 5%;
+}
+
 #news-feed-head {
     font-size: 120%;
 }
@@ -17,8 +46,19 @@
 }
 
 
-.foot-nav-link {
+a.foot-nav-link {
     color: black;
+    text-decoration: none;
+}
+
+
+/* .list-dash:before { 
+    content: '-'; 
+    position: relative; 
+} */
+
+hr {
+    background-color: black;
 }
 
 /* .vert {
@@ -26,8 +66,8 @@
 } */
 
 nav#sub-nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 #login-btn {

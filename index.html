@@ -26,6 +26,7 @@
   </div>
 </nav> 
 <div class="container" > 
+    <div class="container pt-3"></div>
     <nav id="sub-nav" class="navbar navbar-expand-lg navbar-light bg-white col-md-11 offset-md-2">
         <a class="nav-link active" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,10 +35,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" href="#">WHO WE ARE <span class="sr-only">(current)</span></a>
-            <span class="vert">|</span><a class="nav-link active" href="whatwedo.html">WHAT WE DO <span class="sr-only">(current)</span></a>
-            |<a class="nav-link active" href="newsevents.html">NEWS & EVENTS</a>
-            |<a class="nav-link active" href="wherewework.html">WHERE WE WORK</a>
-            |<a class="nav-link active" href="contactus.html">CONTACT US</a>
+            <span class="vert">|</span><a class="nav-link" href="whatwedo.html">WHAT WE DO <span class="sr-only">(current)</span></a>
+            |<a class="nav-link" href="newsevents.html">NEWS & EVENTS</a>
+            |<a class="nav-link" href="wherewework.html">WHERE WE WORK</a>
+            |<a class="nav-link" href="contactus.html">CONTACT US</a>
           </div>
         </div>
     </nav>
@@ -53,8 +54,15 @@
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="news-feed-container">
-                    <p id='news-feed-head'>NEWS FEED</p><hr id='news-feed-line'>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum ratione autem molestiae facere inventore provident labore tempora fuga voluptates architecto ex id facilis, hic est, quibusdam sit dolorem, quaerat ad laborum ea alias! Corrupti laudantium provident accusamus veritatis natus veniam dolore a magni quis aperiam dolorum eaque modi nesciunt, maxime atque asperiores animi. Quod quasi magni necessitatibus sint. Quos hic recusandae nam. Aspernatur optio voluptatem porro quasi at a perspiciatis fugiat id tenetur perferendis doloremque, eveniet cumque dolorem nostrum recusandae?</p>
+                    <p id='news-feed-head'>NEWS FEED</p>
+                    <hr id='news-feed-line'>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum ratione autem molestiae facere
+                        inventore provident labore tempora fuga voluptates architecto ex id facilis, hic est, quibusdam
+                        sit dolorem, quaerat ad laborum ea alias! Corrupti laudantium provident accusamus veritatis
+                        natus veniam dolore a magni quis aperiam dolorum eaque modi nesciunt, maxime atque asperiores
+                        animi. Quod quasi magni necessitatibus sint. Quos hic recusandae nam. Aspernatur optio
+                        voluptatem porro quasi at a perspiciatis fugiat id tenetur perferendis doloremque, eveniet
+                        cumque dolorem nostrum recusandae?</p>
                 </div>
             </div>
         </div><br>
@@ -63,7 +71,7 @@
                 <h6>Welcome to our website!</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae explicabo mollitia eum sit voluptatem nobis facilis accusamus illo voluptas quo quae ut vero, nostrum aspernatur, atque quasi itaque, dicta modi dolore iste vitae molestiae fuga nisi? Nobis sapiente sequi quisquam?</p>
             </div>
-            <div class="col-md-3 col-sm-9">
+            <div class="col-md-3 col-sm-3">
                 <h6>Bigshot, Zoo, & Adds, P.C.</h6>
                 <p>419 West South Street, Suite 4200<br>
                 Houston, Texas 35983<br>
@@ -91,25 +99,31 @@
     -->
 </body>
 
-<div class="col-md-10 offset-md-1">
-    <hr>
-    <ul class="list-unstyled list-inline d-flex justify-content-center">
-        <li class="list-inline-item" style="margin-right: 50px;">
-            <a href="/index.html" class="foot-nav-link">WHO WE ARE</a>
-        </li>
-        <li class="list-inline-item" style="margin-right: 50px;">
-            <a href="/whatwedo.html" class="foot-nav-link">WHAT WE DO</a>
-        </li>
-        <li class="list-inline-item" style="margin-right: 50px;">
-            <a href="/newsevents.html" class="foot-nav-link">NEWS & EVENTS</a>
-        </li>
-        <li class="list-inline-item" style="margin-right: 50px;">
-            <a href="/wherewework.html" class="foot-nav-link">WHERE WE WORK</a>
-        </li>
-        <li class="list-inline-item foot-nav-list">
-            <a href="/contactus.html" class="foot-nav-link">CONTACT US</a>
-        </li>
-    </ul>
-</div>
+<footer>
+    <div class="col-md-10 offset-md-1">
+        <hr>
+        <ul class="list-unstyled list-inline d-flex justify-content-center list-dash">
+            <li class="list-inline-item">
+                <a href="/index.html" class="foot-nav-link">WHO WE ARE</a>
+                <p class="list-inline-item" style="color:lightgray">&mdash;</p>
+            </li>
+            <li class="list-inline-item">
+                <a href="/whatwedo.html" class="foot-nav-link">WHAT WE DO</a>
+                <p class="list-inline-item" style="color:lightgray">&mdash;</p>
+            </li>
+            <li class="list-inline-item">
+                <a href="/newsevents.html" class="foot-nav-link">NEWS & EVENTS</a>
+                <p class="list-inline-item" style="color:lightgray">&mdash;</p>
+            </li>
+            <li class="list-inline-item">
+                <a href="/wherewework.html" class="foot-nav-link">WHERE WE WORK</a>
+                <p class="list-inline-item" style="color:lightgray">&mdash;</p>
+            </li>
+            <li class="list-inline-item">
+                <a href="/contactus.html" class="foot-nav-link">CONTACT US</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
 </html>
