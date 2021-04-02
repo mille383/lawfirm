@@ -25,9 +25,7 @@
 .what-we-do-container>ul {
     list-style-type: none;
     padding:0;
-    margin-left;
 }
-
 
 .what-we-do-container>ul>ul {
     list-style-type: none;
@@ -84,4 +82,26 @@ nav#sub-nav {
     top: 0px;
 }
 
+.class::before {
+    background-image: url("../images/nza_background.jpg");
+    content: "";
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    width: 450px;
+    z-index: -1;
+}
 
+.contact-us-container {
+    /* overflow: scroll; */
+    background-color: #923530;
+    background: linear-gradient(to bottom,#923530,#6B2A28);
+    color: white;
+    padding: 10px;
+    list-style-type: none;
+    /* Probably a better way to do this */
+}
+
+.career-opp-img {
+    width: 90%;
+}
