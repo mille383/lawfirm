@@ -1,3 +1,7 @@
+/* body {
+    background-image: url('../images/nza_background.jpg');
+} */
+
 .news-feed-container {
     overflow: scroll;
     background-color: #923530;
@@ -21,7 +25,9 @@
 .what-we-do-container>ul {
     list-style-type: none;
     padding:0;
+    margin-left;
 }
+
 
 .what-we-do-container>ul>ul {
     list-style-type: none;
@@ -49,6 +55,7 @@
 a.foot-nav-link {
     color: black;
     text-decoration: none;
+    padding: 5px;
 }
 
 
@@ -59,6 +66,7 @@ a.foot-nav-link {
 
 hr {
     background-color: black;
+    height: 2px;
 }
 
 /* .vert {
@@ -75,3 +83,5 @@ nav#sub-nav {
     right: 0px;
     top: 0px;
 }
+
+
