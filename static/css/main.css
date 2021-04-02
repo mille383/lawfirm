@@ -82,14 +82,16 @@ nav#sub-nav {
     top: 0px;
 }
 
-.class::before {
+/* body {
     background-image: url("../images/nza_background.jpg");
     content: "";
-    display: inline-block;
-    height: 100px;
+    display: block;
     position: relative;
-    width: 450px;
     z-index: -1;
+} */
+
+#main-page {
+    background: white;
 }
 
 .contact-us-container {
@@ -99,9 +101,18 @@ nav#sub-nav {
     color: white;
     padding: 10px;
     list-style-type: none;
+    float:right;
     /* Probably a better way to do this */
 }
 
 .career-opp-img {
     width: 90%;
 }
+
+.where-we-work-container {
+    /* overflow: scroll; */
+    background-image: url(/static/images/other_links_background.jpg);
+    padding: 10px;
+    list-style-type: none;
+}
+
